@@ -9,7 +9,7 @@ contract Marketplace {
         uint id;
         string name;
         uint price;
-        address owner;
+        address payable owner;
         bool purchased;
     }
 
@@ -17,7 +17,7 @@ contract Marketplace {
         uint id,
         string name,
         uint price,
-        address owner,
+        address payable owner,
         bool purchased
     );
 
